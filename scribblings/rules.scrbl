@@ -31,13 +31,24 @@ This will create a grid of 451x451 and place a single on cell at (0, 255). The r
 
 A pogram is only three lines of code.
 
-The first line is a specification of the rule number @racketblock[(value n)]. The number is converted to an 8 bit binary number and that corresponds to the result states of the
-grid configurations. For example rule 30 corresnponds to binary value 00011110, hence, the rule configuration is - (1, 1, 1) -> 0, (1, 1, 0) -> 0, (1, 0, 1) -> 0, (1, 0, 0) -> 1, (0, 1, 1) -> 1, (0, 1, 0) -> 1, (0, 0, 1) -> 1, (0, 0, 0) -> 0.
-Alternatively, the first line could be a binary specification of the 8 bits like @racketblock[(binary 0 0 0 1 1 1 1 0)].
+The first line is a specification of the rule number
 
-The second line specifies the dimension of the board @racketblock[(dimension N)]. This creates a square board of N x N.
+@racketblock[(value n)]
 
-The third line gives the initial configuration of the board @racketblock[(init-conf ((row1 col1 1) (row2 col2 0) ...))].
+The number is converted to an 8 bit binary number and that corresponds to the result states of the grid configurations. For example rule 30 corresnponds to binary value 00011110, hence, the rule configuration is - (1, 1, 1) -> 0, (1, 1, 0) -> 0, (1, 0, 1) -> 0, (1, 0, 0) -> 1, (0, 1, 1) -> 1, (0, 1, 0) -> 1, (0, 0, 1) -> 1, (0, 0, 0) -> 0.
+Alternatively, the first line could be a binary specification of the 8 bits like
+
+@racketblock[(binary 0 0 0 1 1 1 1 0)]
+
+The second line specifies the dimension of the board
+
+@racketblock[(dimension N)]
+
+This creates a square board of N x N.
+
+The third line gives the initial configuration of the board
+
+@racketblock[(init-conf ((row1 col1 1) (row2 col2 0) ...))]
 
 @section{Functions}
 
