@@ -22,7 +22,7 @@ Add `#lang s-exp rules` at the top
 (dimension 451)
 (init-conf ((0 225 1)))]
 
-@image["./rule30.png"]
+@image["scribblings/rule30.png"]
 
 This will create a grid of 451x451 and place a single on cell at (0, 255). The rest of the grid will be derived by applying Rule 30 repeatedly for each column.
 
