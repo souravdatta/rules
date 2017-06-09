@@ -24,7 +24,7 @@ Add ‘\#lang s-exp rules‘ at the top
 (init-conf ((0 225 1)))
 ```
 
-![rule 30](https://github.com/souravdatta/rules/scribblings/rule30.png)
+![rule 30](scribblings/rule30.png)
 
 This will create a grid of 451x451 and place a single on cell at \(0,
 255\). The rest of the grid will be derived by applying Rule 30
