@@ -15,7 +15,7 @@ state of three cells - \(row - 1, col -1\), \(row - 1, col\) and \(row -
 
 Here is how we define Rule 30 (http://mathworld.wolfram.com/Rule30.html)
 
-Add ‘\#lang s-exp rules‘ at the top
+Add `\#lang s-exp rules` at the top
 
 ```racket
 (value 30)             
