@@ -1,0 +1,3 @@
+rules
+=====
+README text here.
