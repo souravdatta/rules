@@ -13,8 +13,7 @@ configuration of a single cell in a grid of cells depending upon the
 state of three cells - \(row - 1, col -1\), \(row - 1, col\) and \(row -
 1, col + 1\).
 
-Here is how we define Rule 30
-\[http://mathworld.wolfram.com/Rule30.html\]
+Here is how we define Rule 30 (http://mathworld.wolfram.com/Rule30.html)
 
 Add ‘\#lang s-exp rules‘ at the top
 
