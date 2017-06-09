@@ -1,4 +1,4 @@
-#lang s-exp "rules-lang.rkt"
+#lang s-exp rules
 
 
 (value 30)
