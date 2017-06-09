@@ -42,7 +42,9 @@ to the result states of the grid configurations. For example rule 30
 corresnponds to binary value 00011110, hence, the rule configuration is
 - \(1, 1, 1\) -> 0, \(1, 1, 0\) -> 0, \(1, 0, 1\) -> 0, \(1, 0, 0\) ->
 1, \(0, 1, 1\) -> 1, \(0, 1, 0\) -> 1, \(0, 0, 1\) -> 1, \(0, 0, 0\) ->
-0. Alternatively, the first line could be a binary specification of the
+0. 
+
+The first line could also be a binary specification of the
 8 bits like
 
 `(binary` `0` `0` `0` `1` `1` `1` `1` `0)`
