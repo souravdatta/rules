@@ -17,3 +17,6 @@
 (: explore-range (-> Integer Integer (Listof (Instance Bitmap%))))
 (define (explore-range start end)
   (map explore-one (range start end)))
+  
+(provide (all-defined-out))
+
